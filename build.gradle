@@ -50,6 +50,10 @@ jar {
     }
 }
 
+java {
+    withSourcesJar()
+}
+
 publishing {
     publications {
         maven(MavenPublication) {
