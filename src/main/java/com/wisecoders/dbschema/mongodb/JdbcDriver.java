@@ -29,7 +29,7 @@ public class JdbcDriver implements Driver
             LOGGER.setLevel(Level.ALL);
 
             final ConsoleHandler consoleHandler = new ConsoleHandler();
-            consoleHandler.setLevel(Level.ALL);
+            consoleHandler.setLevel(Level.INFO);
             consoleHandler.setFormatter(new SimpleFormatter());
             LOGGER.addHandler(consoleHandler);
 
